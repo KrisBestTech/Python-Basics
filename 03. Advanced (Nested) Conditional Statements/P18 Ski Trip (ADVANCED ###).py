@@ -86,3 +86,4 @@ if type_of_room == 'room for one person' or type_of_room == 'apartment' or \
             president_apartment_with_discounts = president_apartment1 - additional_discount
 
         print(f'{president_apartment_with_discounts:.2f}')
+        
