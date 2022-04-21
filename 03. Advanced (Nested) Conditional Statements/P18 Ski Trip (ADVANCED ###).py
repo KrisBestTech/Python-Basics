@@ -86,15 +86,4 @@ if type_of_room == 'room for one person' or type_of_room == 'apartment' or \
             president_apartment_with_discounts = president_apartment1 - additional_discount
 
         print(f'{president_apartment_with_discounts:.2f}')
-
-    if number_of_days < 10:
-        apartment_discount = total_price_for_apartment * 0.30
-        president_apartment_discount = total_price_for_presidential_apartment * 0.10
-
-    elif 10 <= number_of_days <= 15:
-        apartment_discount = total_price_for_apartment * 0.35
-        president_apartment_discount = total_price_for_presidential_apartment * 0.15
-
-    elif number_of_days > 15:
-        apartment_discount = total_price_for_apartment * 0.50
-        president_apartment_discount = total_price_for_presidential_apartment * 0.20
+        
